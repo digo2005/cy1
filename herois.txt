@@ -1,0 +1,10 @@
+homem-aranha,marvel
+flash,dc
+hulk,marvel
+batman,dc
+capitão america,marvel
+superman,dc
+thor,marvel
+lanterna verde,dc
+viuva negra,marvel
+mulher maravilha,dc

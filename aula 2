@@ -1,0 +1,280 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "ababd047-4dde-4924-97b2-dd36809c0061",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "olá!\n",
+      "olá,tudo bem!\n",
+      "ctrl play escola de programação de robotica\n"
+     ]
+    }
+   ],
+   "source": [
+    "string1=\"olá!\"\n",
+    "string2=\"olá,tudo bem!\"\n",
+    "string3=\"ctrl play escola de programação de robotica\"\n",
+    "print(string1)\n",
+    "print(string2)\n",
+    "print(string3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "586ae058-3958-495e-8326-fbe415b4bc7f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "rodrigo bernard veiga\n",
+      "rua antonio gasparin\n",
+      "32463992\n",
+      "meu nome completo é rodrigo bernard veiga\n",
+      "rodrigo bernard veiga\n",
+      "veiga\n",
+      "rroea i\n",
+      "12\n",
+      "2\n"
+     ]
+    }
+   ],
+   "source": [
+    "nomecompleto=\"rodrigo bernard veiga\" \n",
+    "endereço=\"rua antonio gasparin\"\n",
+    "telefone=\"32463992\"\n",
+    "print(nomecompleto)\n",
+    "print(endereço)\n",
+    "print(telefone)\n",
+    "email= \"digaoveiga05@gmail.com\"\n",
+    "print(\"meu nome completo é {}\".format(nomecompleto))\n",
+    "print(nomecompleto[0:21])\n",
+    "print(nomecompleto[16:21])\n",
+    "len(nomecompleto)\n",
+    "print(nomecompleto[::3])\n",
+    "print(email.find(\"@\"))\n",
+    "print(nomecompleto.count(\"a\"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "345440a4-27fa-4314-a867-0858e663be3d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "osasco \n",
+      "vs \n",
+      "cruzeiro\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"osasco \\nvs \\ncruzeiro\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "895398b1-65ed-4a98-b458-deaf7060ace8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "rodrigoveiga\n",
+      "rodrigorodrigorodrigorodrigorodrigorodrigorodrigorodrigorodrigorodrigo\n"
+     ]
+    }
+   ],
+   "source": [
+    "nome=\"rodrigo\"\n",
+    "sobrenome=\"veiga\"\n",
+    "print(nome+sobrenome)\n",
+    "print(nome*10)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "58b11c49-1829-4fb3-b7d9-ebd3d9d012e1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "           CRTL+PLAY - ESCOLA DE PROGRAMAÇÃO E ROBÓTICA       \n",
+      "           crtl+play - escola de programação e robótica       \n",
+      "['crtl+play', '-', 'escola', 'de', 'programação', 'e', 'robótica']\n",
+      "crtl+play - escola de programação e robótica\n"
+     ]
+    }
+   ],
+   "source": [
+    "frase=\"           crtl+play - escola de programação e robótica       \"\n",
+    "print(frase.upper())\n",
+    "print(frase.lower())\n",
+    "print(frase.split())\n",
+    "print(frase.strip())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "5e0ad3e8-cdce-4885-91de-d9c8e3a34d14",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "qual o seu nome rodrigo\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "prazer em te conhecer,rodrigo!\n",
+      "prazer em te conhecer,rodrigo             !\n",
+      "prazer em te conhecer,rodrigo             !\n",
+      "prazer em te conhecer,             rodrigo!\n",
+      "prazer em te conhecer,      rodrigo       !\n",
+      "prazer em te conhecer,======rodrigo=======!\n"
+     ]
+    }
+   ],
+   "source": [
+    "nome = input(\"qual o seu nome\")\n",
+    "print(\"prazer em te conhecer,{}!\".format(nome))\n",
+    "print(\"prazer em te conhecer,{:20}!\".format(nome))\n",
+    "print(\"prazer em te conhecer,{:<20}!\".format(nome))\n",
+    "print(\"prazer em te conhecer,{:>20}!\".format(nome))\n",
+    "print(\"prazer em te conhecer,{:^20}!\".format(nome))\n",
+    "print(\"prazer em te conhecer,{:=^20}!\".format(nome))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "68b8b3ed-0d9c-4893-85d8-9af87896c5e3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "digite o time 1 palmeiras\n",
+      "digite o time 2 corinthians\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "palmeiras                     \n",
+      "++++++++++++++vs++++++++++++++\n",
+      "                   corinthians\n"
+     ]
+    }
+   ],
+   "source": [
+    "time1 = input (\"digite o time 1\")\n",
+    "time2 = input (\"digite o time 2\")\n",
+    "print(\"{:<30}\".format(time1))\n",
+    "versus=\"vs\"\n",
+    "print(\"{:+^30}\".format(versus))\n",
+    "print(\"{:>30}\".format(time2))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "43356f9b-d603-42b2-a02b-fe4dac1133d5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "digite uma frase eu te amo\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2\n",
+      "1\n",
+      "contagem de a=1\n"
+     ]
+    }
+   ],
+   "source": [
+    "#desafio 0\n",
+    "frase=input(\"digite uma frase\")\n",
+    "print(frase.count(\" \"))\n",
+    "print(frase.count(\"a\")) \n",
+    "print(\"contagem de a={}\".format(frase.count(\"a\")))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "209d3da9-4c4e-4a1e-8f0b-08561b289bde",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "c\n",
+      "t\n",
+      "r\n"
+     ]
+    }
+   ],
+   "source": [
+    "# desafio 1\n",
+    "nome=\"ctrl+play\"\n",
+    "print(nome[0:1])\n",
+    "print(nome[1:2])\n",
+    "print(nome[2:3])"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
